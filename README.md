@@ -23,11 +23,9 @@ The project supports HTTP requests and demonstrates basic proxy queueing, tunnel
 [curl/browser]
         ↓
   localhost:8080
-        ↓
-[ShipProxy - Client]
-        ↓  (single TCP)
+[ShipProxy - Client] (single TCP)
+        ↓  
    server:9090
-        ↓
 [OffshoreProxy - Server]
         ↓
 [Internet Website]
